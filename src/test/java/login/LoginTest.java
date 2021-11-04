@@ -1,7 +1,7 @@
 package login;
 
 import pages.*;
-import java.*;
+//import java.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -32,6 +32,9 @@ public class LoginTest extends SalesforceFixture {
     @Test
     public void login(){
         super.login();
+        HomePage homePage = new HomePage(driver);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        homePage.assertIsOpened();
     }
 
     @AfterClass

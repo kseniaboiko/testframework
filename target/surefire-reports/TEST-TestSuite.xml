@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="TestSuite" time="11.013" errors="0" skipped="0">
+  <properties>
+    <property name="JOB_NAME" value="testCRM"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/testCRM/25/display/redirect?page=tests"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/Users/boiko/.jenkins"/>
+    <property name="PATH" value="/usr/bin:/bin:/usr/sbin:/sbin"/>
+    <property name="HUDSON_SERVER_COOKIE" value="c3f665ecc67647b3"/>
+    <property name="POM_ARTIFACTID" value="framework"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="framework"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="11.0.12+8-LTS-237"/>
+    <property name="user.name" value="boiko"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="testCRM"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/testCRM/25/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#25"/>
+    <property name="TMPDIR" value="/var/folders/mb/dl9s2x2935vgzskvxpk5k5g00000gn/T/"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.12.jdk/Contents/Home/lib"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.version" value="11.0.12"/>
+    <property name="XPC_FLAGS" value="0x0"/>
+    <property name="user.timezone" value="Europe/Kiev"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="BUILD_ID" value="25"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="SHELL" value="/bin/zsh"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.8.2/libexec/conf"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="GB"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.12.jdk/Contents/Home"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="11.5"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/testCRM/25/display/redirect"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/testCRM/25/display/redirect?page=artifacts"/>
+    <property name="java.vm.version" value="11.0.12+8-LTS-237"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/testCRM/display/redirect"/>
+    <property name="JAVA_MAIN_CLASS_1348" value="Main"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="LOGNAME" value="boiko"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="HOME" value="/Users/boiko"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="POM_GROUPID" value="org.example"/>
+    <property name="user.home" value="/Users/boiko"/>
+    <property name="BUILD_TAG" value="jenkins-testCRM-25"/>
+    <property name="JENKINS_SERVER_COOKIE" value="c3f665ecc67647b3"/>
+    <property name="XPC_SERVICE_NAME" value="homebrew.mxcl.jenkins-lts"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="/Users/boiko/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.8.2/libexec"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /usr/local/Cellar/maven/3.8.2/libexec /Users/boiko/.jenkins/war/WEB-INF/lib/remoting-4.10.jar /Users/boiko/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar /Users/boiko/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar 53560"/>
+    <property name="java.class.path" value="/Users/boiko/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.13.jar:/usr/local/Cellar/maven/3.8.2/libexec/boot/plexus-classworlds-2.6.0.jar:/usr/local/Cellar/maven/3.8.2/libexec/conf/logging"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="jansi.mode" value="strip"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="M2_HOME" value="/usr/local/Cellar/maven/3.8.2/libexec"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="CI" value="true"/>
+    <property name="java.io.tmpdir" value="/var/folders/mb/dl9s2x2935vgzskvxpk5k5g00000gn/T/"/>
+    <property name="HUDSON_HOME" value="/Users/boiko/.jenkins"/>
+    <property name="PATH+MAVEN" value="/usr/local/Cellar/maven/3.8.2/libexec/bin"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/testCRM/25/"/>
+    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.rZDNS7du3F/Listeners"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x2"/>
+    <property name="user.dir" value="/Users/boiko/Documents/framework/testframework"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/testCRM/"/>
+    <property name="MAVEN_HOME" value="/usr/local/Cellar/maven/3.8.2/libexec"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="25"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="maven3.interceptor" value="/Users/boiko/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="/Users/boiko/Documents/framework/testframework@tmp"/>
+    <property name="WORKSPACE" value="/Users/boiko/Documents/framework/testframework"/>
+    <property name="maven3.interceptor.common" value="/Users/boiko/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="USER" value="boiko"/>
+  </properties>
+  <testcase classname="login.LoginTest" name="login" time="4.883"/>
+  <testcase classname="login.CreateContactRecordTest" name="createRecord" time="6.13"/>
+</testsuite>

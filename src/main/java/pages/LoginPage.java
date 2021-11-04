@@ -3,18 +3,23 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.FindBy;
 
-import javax.xml.bind.Element;
 
-public class LoginPage {
-    public static ChromeDriver driver;
+public class LoginPage extends PageObject {
+    public ChromeDriver driver;
 
+    @FindBy(id = "username")
+    public WebElement email;
+
+    @FindBy(id = "password")
+    public WebElement password;
+
+    @FindBy(id = "Login")
+    public WebElement loginButton;
 
     public LoginPage(ChromeDriver driver){
-        this.driver = driver;
+        super(driver);
     }
 
-    public WebElement email = driver.findElement(By.cssSelector("#username"));
-    public WebElement password = driver.findElement(By.cssSelector("#password"));
-    public WebElement loginButton = driver.findElement(By.cssSelector("#Login"));
 }

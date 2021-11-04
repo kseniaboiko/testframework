@@ -1,0 +1,19 @@
+[ {
+  "name" : "Jenkins",
+  "type" : "jenkins",
+  "url" : "http://localhost:8080/",
+  "buildOrder" : 25,
+  "buildName" : "testCRM #25",
+  "buildUrl" : "http://localhost:8080/job/testCRM/25/",
+  "reportName" : "AllureReport",
+  "reportUrl" : "http://localhost:8080/job/testCRM/25/allure"
+}, {
+  "name" : "Jenkins",
+  "type" : "jenkins",
+  "url" : "http://localhost:8080/",
+  "buildOrder" : 25,
+  "buildName" : "testCRM #25",
+  "buildUrl" : "http://localhost:8080/job/testCRM/25/",
+  "reportName" : "AllureReport",
+  "reportUrl" : "http://localhost:8080/job/testCRM/25/allure"
+} ]

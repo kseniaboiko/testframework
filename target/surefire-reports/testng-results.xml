@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-04T21:06:47 EET" name="Command line suite" finished-at="2021-11-04T21:07:07 EET" duration-ms="20196">
+    <groups>
+    </groups>
+    <test started-at="2021-11-04T21:06:47 EET" name="Command line test" finished-at="2021-11-04T21:07:07 EET" duration-ms="20196">
+      <class name="login.CreateContactRecordTest">
+        <test-method is-config="true" signature="openCRM()[pri:0, instance:login.CreateContactRecordTest@6572421]" started-at="2021-11-04T21:06:56 EET" name="openCRM" finished-at="2021-11-04T21:06:59 EET" duration-ms="3405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCRM -->
+        <test-method is-config="true" signature="login()[pri:0, instance:login.CreateContactRecordTest@6572421]" started-at="2021-11-04T21:06:59 EET" name="login" finished-at="2021-11-04T21:07:01 EET" duration-ms="1830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createRecord()[pri:0, instance:login.CreateContactRecordTest@6572421]" started-at="2021-11-04T21:07:01 EET" name="createRecord" finished-at="2021-11-04T21:07:07 EET" duration-ms="6129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createRecord -->
+      </class> <!-- login.CreateContactRecordTest -->
+      <class name="login.LoginTest">
+        <test-method is-config="true" signature="openCRM()[pri:0, instance:login.LoginTest@5af3afd9]" started-at="2021-11-04T21:06:47 EET" name="openCRM" finished-at="2021-11-04T21:06:51 EET" duration-ms="3917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCRM -->
+        <test-method signature="login()[pri:0, instance:login.LoginTest@5af3afd9]" started-at="2021-11-04T21:06:51 EET" name="login" finished-at="2021-11-04T21:06:56 EET" duration-ms="4881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="after()[pri:0, instance:login.LoginTest@5af3afd9]" started-at="2021-11-04T21:06:56 EET" name="after" finished-at="2021-11-04T21:06:56 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- login.LoginTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
